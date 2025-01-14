@@ -1,0 +1,71 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+h1, h2 {
+  margin: 10px 0;
+  text-align: center;
+  color: #2c3e50;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+
+/* Header */
+header {
+  background: #2c3e50;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+header .nav {
+  margin-top: 10px;
+}
+
+header .nav a {
+  color: #ecf0f1;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+header .nav a:hover { text-decoration: underline; }
+
+/* Footer */
+footer {
+  background: #34495e;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+footer a:hover { text-decoration: underline; }
+
+/* Ordered List */
+ol {
+  padding-left: 20px;
+  margin: 15px 0;
+  list-style-type: decimal;
+}
+
+ol li {
+  margin-bottom: 10px;
+  color: #34495e;
+  font-size: 1rem;
+}
+
+/* Utility Classes */
+.text-center { text-align: center; }
+.mt-20 { margin-top: 20px; }
+.mb-20 { margin-bottom: 20px; }
